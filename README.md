@@ -50,6 +50,7 @@ Find those `TODO` items in the code, and tackle one of them.
 1. Type `git commit -m "some meaningful message"` where Some meaningful message is a message that explains your commit.
 1. Type `git status` to make sure there is nothing to commit.
 1. Type `git push origin your-name-partner-name` to push this branch to your forked repo on GitHub.
+2. **Reminder: No Pull Requests until the assignment is finished, or time runs out**
 2. On GitHub, Add your navigator as a collaborator (go to settings -> collaborators).
 3. Slack your partner the repo link for them to clone down.
 
