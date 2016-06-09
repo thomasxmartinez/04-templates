@@ -23,12 +23,10 @@ Here is the recommended workflow:
 
 1. Driver: fork this repository if you haven't done so already.
 1. Your **forked repo** on GitHub will be your "origin" repo. Clone **your fork** to your local development environment:
-1. If you haven't done so yet, create a directory named "301" - `mkdir 301/` (This will be your parent 301 directory and set you up for organizational success!)
+
 1. Next, `cd 301/`
-1. `mkdir lab-assignments` to house the pair assignment repos.
 1. `cd lab-assignments`
-2. `mkdir my-forked-labs`
-3. `cd my-forked-labs`
+1. `cd my-forked-labs`
 1. `git clone` this repo.
 1. `cd` into this repo.
 1. Immediately `git checkout -b` driver-name-navigator-name (ex: `git checkout -b rick-brian`).  
