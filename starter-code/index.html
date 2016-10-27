@@ -20,11 +20,12 @@
 
 
     <!--
-        STRETCH! Look at all that duplicated code in our
+        STRETCH! Look at all of the duplicated code in our
         populateFilters method! Looks like a good opportunity
-        to use a template. Make two small templates for an
-        option element (one for author, one for category), and
-        render the list once you have data to populate it with.
+        to use a template. Make two small templates
+        (one for author, one for category) each with an
+        option element, and render the list once you have data
+        to populate it with.
        -->
   </head>
   <body>
@@ -62,6 +63,17 @@
             </li>
           </ul>
         </div>
+        <article class="template" data-category="placeholder-category">
+          <header>
+            <h1>Title</h1>
+            <div class="byline">
+              By <address><a href="">Author Name</a></address>
+              published <time pubdate datetime="2000-01-01">Publish Time</time>
+            </div>
+          </header>
+          <section class="article-body"></section>
+          <a href="#" class="read-on">Read on &rarr;</a>
+        </article>
       </section>
       <section id="about" class="tab-content">
         <header>
